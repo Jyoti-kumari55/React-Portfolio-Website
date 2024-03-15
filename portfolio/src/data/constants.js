@@ -13,7 +13,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1awwoTJETsWvK7n-yU2pnqH-EEm2C4UFg/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/jyoti-kumari-bba46316b/",
     twitter: "https://twitter.com/JyotiCh15_",
-    insta: "https://www.instagram.com/im_jyoti_chaudhary_/",
+    insta: "https://www.instagram.com/mind_hustle/",
  
 };
 
@@ -342,11 +342,3 @@ export const projects = [
   },
 
 ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
