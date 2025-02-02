@@ -85,7 +85,6 @@ export const Divider = styled.div`
     background: ${({ theme }) => theme.primary};
 `
 
-
 export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
