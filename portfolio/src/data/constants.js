@@ -10,13 +10,13 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Jyoti-kumari55",
   resume:
-  "https://drive.google.com/file/d/1Bu0MaygeW9zliDS5fp_UnV-mJws0nm-h/view?usp=drive_link",
-    linkedin: "https://www.linkedin.com/in/jyoti-kumari-bba46316b/",
-    twitter: "https://twitter.com/JyotiCh15_",
-    insta: "https://www.instagram.com/mind_hustle/",
- 
+    "https://drive.google.com/file/d/17NeA9F44Eu5iBXhR4jFlhn6AqV1g1UaL/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/jyoti-kumari-bba46316b/",
+  twitter: "https://twitter.com/JyotiCh15_",
+  insta: "https://www.instagram.com/mind_hustle/",
 };
 
+// Skills
 export const skills = [
   {
     title: "Frontend",
@@ -45,7 +45,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-     
+
       {
         name: "Bootstrap",
         image:
@@ -53,10 +53,8 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image:
-        "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg"
+        image: "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
       },
-     
     ],
   },
   {
@@ -68,23 +66,19 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:
-        "https://icon.icepanel.io/Technology/svg/Express.svg"
+        image: "https://icon.icepanel.io/Technology/svg/Express.svg",
       },
       {
         name: "Java",
-        image: 
-        "https://icon.icepanel.io/Technology/svg/Java.svg"
-        
+        image: "https://icon.icepanel.io/Technology/svg/Java.svg",
       },
-    
+
       {
         name: "Spring Boot",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png"
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png",
       },
 
-
-      
       {
         name: "MySQL",
         image:
@@ -110,7 +104,7 @@ export const skills = [
         image:
           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       },
-     
+
       {
         name: "Docker",
         image:
@@ -121,14 +115,12 @@ export const skills = [
         image:
           "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
       },
-    
-     
+
       {
         name: "Kubernetes",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
       },
-     
     ],
   },
   // {
@@ -139,16 +131,16 @@ export const skills = [
   //       image:
   //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
   //     },
-     
+
   //     {
   //       name: "XML",
   //       image:
   //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
   //     },
-      
+
   //   ],
   // },
-  
+
   {
     title: "Others",
     skills: [
@@ -206,12 +198,11 @@ export const experiences = [
       "Hibernate",
       "Docker",
       "AWS",
-     
-    ]
-    }
-  ]
+    ],
+  },
+];
 
-  // Education details
+// Education details
 export const education = [
   {
     id: 0,
@@ -220,7 +211,8 @@ export const education = [
     date: "Aug 2016 - July 2020",
     grade: "7.54 CGPA",
     desc: "I completed my graduation in Electronics and Communication Engineering at GLA University , Mathura",
-    degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
+    degree:
+      "Bachelor of Technology - BTech, Electronics and Communication Engineering",
   },
   {
     id: 1,
@@ -247,34 +239,98 @@ export const projects = [
 
   {
     id: 0,
-    title: "Ecommerce Website for Clothes",
+    title: "Social Media Web App",
+    date: "Dec 2024 - March 2024",
+    description:
+      "Built a full stack social media web application using [React, Node.js, Express, MongoDB]. The app includes core Twitter functionalities such as tweeting, following/unfollowing users, liking, retweeting, commenting, and user authentication. It also supports responsive design. The project demonstrates full-stack development, state management, and RESTful API design.",
+    image:
+      "https://res.cloudinary.com/jyotich-15/image/upload/v1745748653/Screenshot_2025-04-27_153928_yvsa0n.png",
+    tags: [
+      "JavaScript", 
+      "React Js",
+      "Redux",
+      "Node Js",
+      "Bootstrap",
+      "CSS/HTML",
+      "MongoDb",
+      "Express Js",
+      "Authentication",
+      "Cloudinary",
+    ],
+    category: "web app",
+    github: "https://github.com/Jyoti-kumari55/social-media-web-app",
+    webapp: "https://smp-frontend-beta.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "StyleMe",
     date: "Sept 2024 - Nov 2024",
     description:
       "Developed a full-stack web application that allows users to search or see their favorite brand clothes.",
     image:
-    "https://res.cloudinary.com/jyotich-15/image/upload/v1738487555/Screenshot_2025-02-02_143947_z01ppk.png",
-    tags: ["JavaScript", "React Js", "Redux", "Bootstrap", "CSS/HTML", "Node Js", "MongoDb", "Express Js"],
+      "https://res.cloudinary.com/jyotich-15/image/upload/v1738487555/Screenshot_2025-02-02_143947_z01ppk.png",
+    tags: [
+      "JavaScript",
+      "React Js",
+      "Redux",
+      "Node Js",
+      "Bootstrap",
+      "CSS/HTML",
+      "MongoDb",
+      "Express Js",
+      "Authentication"
+    ],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/StyleMe-Frontend",
     webapp: "https://styleme-ecomweb-jyoti-one.vercel.app",
-   
   },
 
   {
-    id: 1,
+    id: 2,
+    title: "Todo App",
+    date: "Sept 2024 - Oct 2024",
+    description:
+      "A responsive, full-stack To-Do application built to manage daily tasks efficiently. Users can create, read, update, and delete (CRUD) their to-do items in a seamless and interactive UI. Built using modern web technologies with secure user authentication and real-time updates..",
+    image:
+      "https://res.cloudinary.com/jyotich-15/image/upload/v1745749379/Screenshot_2025-04-27_155241_exciuk.png",
+    tags: [
+      "JavaScript",
+      "React Js",
+      "Node Js",
+      "MongoDb",
+      "Express Js",
+      "Tailwind CSS",
+      "Json Web Token"
+    ],
+    category: "web app",
+    github: "https://github.com/Jyoti-kumari55/todo-app-frontend",
+    webapp: "https://my-todo-app-frontend25.vercel.app",
+  },
+  
+  {
+    id: 3,
     title: "Recipe Organizer",
     date: "Nov 2024 - Nov 2024",
     description:
       "Full stack web app you can add any of your favorite dish, search it and you can also delete any dish if you want.",
     image:
-    "https://res.cloudinary.com/jyotich-15/image/upload/v1738490550/Screenshot_2025-02-02_153200_dpocxe.png",
-    tags: [ "React Js", "Redux", "Bootstrap", "Node Js", "MongoDb", "Express Js", "API"],
+      "https://res.cloudinary.com/jyotich-15/image/upload/v1738490550/Screenshot_2025-02-02_153200_dpocxe.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "Bootstrap",
+      "Node Js",
+      "MongoDb",
+      "Express Js",
+      "API",
+    ],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/Recipe_Organizer_Web_App",
     webapp: "https://recipe-organizer-app-byjyoti.vercel.app/",
   },
+
   {
-    id: 1,
+    id: 4,
     title: "NetflixGPT",
     date: "Nov 2023 - Jan 2024",
     description:
@@ -285,14 +341,12 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/Netflix-GPT_react_project",
     webapp: "https://calm-pudding-cfd10c.netlify.app",
-   
   },
   {
-    id: 2,
+    id: 5,
     title: "Login Authentication",
     date: "Aug 2023 - Sep 2023",
-    description:
-      "Designed and developed the Login Authentication website.",
+    description: "Designed and developed the Login Authentication website.",
     image:
       "https://www.loginradius.com/blog/static/25f482319c5c4fcb1749a8c424a007b0/d3746/login-authentication.jpg",
     tags: [
@@ -303,14 +357,14 @@ export const projects = [
       "NodeMailer",
       "EJS",
       "Bycrpt",
-      "Passport"
+      "Passport",
     ],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/Login-Authentication-Nodejs",
     webapp: "https://vexa-app.netlify.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Image Search Engine",
     date: "Sept 2023 - Sept 2023",
     description:
@@ -319,26 +373,27 @@ export const projects = [
       "https://surfshark.com/wp-content/uploads/2022/11/Can_anyone_see_what_you_search_hero.png",
     tags: ["JavaScript", "HTML", "CSS3"],
     category: "web app",
-    github: "https://github.com/Jyoti-kumari55/Js-Projects/tree/main/Image-Search-Engine",
+    github:
+      "https://github.com/Jyoti-kumari55/Js-Projects/tree/main/Image-Search-Engine",
     webapp: "https://brain-tumor.netlify.app/",
   },
-  
+
   {
-    id: 4,
+    id: 7,
     title: "Weather App",
     date: "Sep 2023 - Sep 2023",
-    description:
-      "A weather app that gives the temperature level.",
+    description: "A weather app that gives the temperature level.",
     image:
       "https://play-lh.googleusercontent.com/znc7FD1BqyFR92b8n6hyROZrAR3FsTyV_ThO79hyuQG-Nb45z2qHFDTnf1HXH50DYg",
     tags: ["JavaScript", "HTML", "CSS3"],
     category: "web app",
-    github: "https://github.com/Jyoti-kumari55/Js-Projects/tree/main/Weather-App",
+    github:
+      "https://github.com/Jyoti-kumari55/Js-Projects/tree/main/Weather-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
 
   {
-    id: 5,
+    id: 8,
     title: "Medicare App",
     date: "Jun 2022 - July 2022",
     description:
@@ -352,13 +407,12 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 9,
     title: "College Management System",
     date: "Jul 2022 - Aug 2022",
     description:
       "A website that gives all the details of the student details, syllabus of the student, books in the library.",
-    image:
-      "https://educloud.app/blog/assets/img/demopic/ec-sms.png",
+    image: "https://educloud.app/blog/assets/img/demopic/ec-sms.png",
     tags: ["Java", "JavaScript", "Jsp", "Spring Boot", "Hibernate", "MySQL"],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/project",
@@ -366,11 +420,10 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 10,
     title: "Online Test Application",
     date: "Jun 2022",
-    description:
-      "A web app that takes the quiz of the student.",
+    description: "A web app that takes the quiz of the student.",
     image:
       "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
     tags: ["Java", "JavaScript", "Angular", "Spring Boot", "Hibernate"],
@@ -378,5 +431,4 @@ export const projects = [
     github: "https://github.com/Jyoti-kumari55/OnlineTestApplication",
     webapp: "https://github.com/Jyoti-kumari55/OnlineTestApplication",
   },
-
 ];
