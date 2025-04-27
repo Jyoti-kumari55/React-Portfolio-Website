@@ -236,7 +236,6 @@ export const education = [
 
 // Projects details
 export const projects = [
-
   {
     id: 0,
     title: "Social Media Web App",
@@ -246,7 +245,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/jyotich-15/image/upload/v1745748653/Screenshot_2025-04-27_153928_yvsa0n.png",
     tags: [
-      "JavaScript", 
+      "JavaScript",
       "React Js",
       "Redux",
       "Node Js",
@@ -278,7 +277,7 @@ export const projects = [
       "CSS/HTML",
       "MongoDb",
       "Express Js",
-      "Authentication"
+      "Authentication",
     ],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/StyleMe-Frontend",
@@ -300,13 +299,13 @@ export const projects = [
       "MongoDb",
       "Express Js",
       "Tailwind CSS",
-      "Json Web Token"
+      "Json Web Token",
     ],
     category: "web app",
     github: "https://github.com/Jyoti-kumari55/todo-app-frontend",
     webapp: "https://my-todo-app-frontend25.vercel.app",
   },
-  
+
   {
     id: 3,
     title: "Recipe Organizer",
